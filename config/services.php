@@ -35,4 +35,8 @@ return [
         'key' => env('IUCN_API_KEY'),
         'endpoint' => env('IUCN_API_ENDPOINT'),
     ],
+
+    'mycobank' => [
+        'endpoint' => env('MYCOBANK_ENDPOINT'),
+    ],
 ];

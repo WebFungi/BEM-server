@@ -109,7 +109,7 @@ class RegisterFungiOccurences extends Command
             return RedListClassification::NA->value;
         }
     }
-  
+
     private function buildFungiData(array $row): array
     {
         return [
